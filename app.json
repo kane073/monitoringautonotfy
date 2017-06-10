@@ -1,0 +1,19 @@
+{
+  "name": "monitoringautonotfy",
+  "scripts": {
+  },
+  "env": {
+    "env": "dev",
+    "host_backend": "dev.monitoringauto.fr"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku create --buildpack https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
